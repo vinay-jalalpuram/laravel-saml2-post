@@ -2,7 +2,7 @@
 
 namespace SamlPost\Saml2;
 
-use OneLogin_Saml2_Auth;
+use OneLogin\Saml2\Auth;
 use OneLogin_Saml2_Error;
 use OneLogin_Saml2_Utils;
 use SamlPost\Saml2\Events\Saml2LogoutEvent;
@@ -20,7 +20,7 @@ class Saml2Auth
 
     protected $samlAssertion;
 
-    function __construct(OneLogin_Saml2_Auth $auth)
+    function __construct(Auth $auth)
     {
         $this->auth = $auth;
     }

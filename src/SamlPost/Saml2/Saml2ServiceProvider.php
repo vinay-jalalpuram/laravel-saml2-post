@@ -2,7 +2,7 @@
 namespace SamlPost\Saml2;
 
 use Illuminate\Support\ServiceProvider;
-use OneLogin_Saml2_Auth;
+use OneLogin\Saml2\Auth;
 use URL;
 
 class Saml2ServiceProvider extends ServiceProvider
@@ -71,7 +71,7 @@ class Saml2ServiceProvider extends ServiceProvider
                 $config['sp']['singleLogoutService']['url'] = URL::route('saml_sls');
             }
 
-            return new OneLogin_Saml2_Auth($config);
+            return new Auth($config);
         });
     }
 
