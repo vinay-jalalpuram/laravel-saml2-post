@@ -1,5 +1,5 @@
 {
-    "name": "aherstein/laravel-saml2-post",
+    "name": "vinay-jalalpuram/laravel-saml2-post",
     "description": "A Laravel package for Saml2 integration as a SP (service provider) based on OneLogin toolkit, which is much lightweight than simplesamlphp",
     "keywords": ["laravel","saml", "saml2", "onelogin"],
     "homepage": "https://github.com/aherstein/laravel-saml2-post",
