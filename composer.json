@@ -2,13 +2,13 @@
     "name": "vinay-jalalpuram/laravel-saml2-post",
     "description": "A Laravel package for Saml2 integration as a SP (service provider) based on OneLogin toolkit, which is much lightweight than simplesamlphp",
     "keywords": ["laravel","saml", "saml2", "onelogin"],
-    "homepage": "https://github.com/aherstein/laravel-saml2-post",
+    "homepage": "https://github.com/vinay-jalalpuram/laravel-saml2-post",
     "license": "MIT",
-  "version": "0.15.0",
+  "version": "1.0.0",
     "authors": [
         {
-            "name": "aherstein",
-            "email": "adam.herstein@icloud.com"
+            "name": "vinay.jalalpuram",
+            "email": "vinay.jalalpuram@nwea.org"
         }
     ],
     "require": {
