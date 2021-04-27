@@ -4,7 +4,7 @@
     "keywords": ["laravel","saml", "saml2", "onelogin"],
     "homepage": "https://github.com/vinay-jalalpuram/laravel-saml2-post",
     "license": "MIT",
-  "version": "1.0.0",
+    "version": "1.0.0",
     "authors": [
         {
             "name": "vinay.jalalpuram",
@@ -32,7 +32,9 @@
             "aliases": {
                 "Saml2": "SamlPost\\Saml2\\Facades\\Saml2Auth"
             }
+        },
+        "branch-alias": {
+            "dev-master": "1.0.0-dev"
         }
-    },
-    "minimum-stability": "stable"
+    }
 }
